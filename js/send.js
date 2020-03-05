@@ -1,0 +1,3 @@
+function btnClickOk() {
+    alert('ok');
+}
