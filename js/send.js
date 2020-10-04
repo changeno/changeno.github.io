@@ -50,6 +50,17 @@ function gainInc4() {
 
 }
 
+function gainInc5() {
+    if (points > 999999) {
+        points -= 1000000;
+        gain += 100000
+        document.getElementById("point").textContent = "points: " + points
+    } else {
+        alert("not enough points");
+    }
+
+}
+
 function prize() {
     if (points > 99999999999) {
         points -= 100000000000
